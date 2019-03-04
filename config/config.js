@@ -15,7 +15,7 @@ export default {
         },
         locale: {
           enable: true, // default false
-          default: 'zh-CN', // default zh-CN
+          default: 'en-US', // default zh-CN
           baseNavigator: true, // default true, when it is true, will use `navigator.language` overwrite default
         },
         dynamicImport: {
@@ -51,6 +51,12 @@ export default {
       component: '../layouts/BasicLayout',
       routes: [
         // new  page
+        {
+          path: '/welcome',
+          name: 'Trang chủ',
+          icon: 'smile',
+          component: './Welcome',
+        },
         {
           path: '/chuong1',
           name: 'Chương 1: Quy định chung',
@@ -130,17 +136,11 @@ export default {
         },
         { path: '/', redirect: '/welcome' },
         // dashboard
-        {
-          path: '/welcome',
-          name: 'welcome',
-          icon: 'smile',
-          component: './Welcome',
-        },
-        {
-          path: 'https://github.com/umijs/umi-blocks/tree/master/ant-design-pro',
-          name: 'more-blocks',
-          icon: 'block',
-        },
+        // {
+        //   path: 'https://github.com/umijs/umi-blocks/tree/master/ant-design-pro',
+        //   name: 'more-blocks',
+        //   icon: 'block',
+        // },
       ],
     },
   ],

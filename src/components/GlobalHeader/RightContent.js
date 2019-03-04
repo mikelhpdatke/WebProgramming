@@ -3,7 +3,7 @@ import { FormattedMessage, formatMessage } from 'umi/locale';
 import { Spin, Tag, Menu, Icon, Avatar, Tooltip } from 'antd';
 import moment from 'moment';
 import groupBy from 'lodash/groupBy';
-import { NoticeIcon } from 'ant-design-pro';
+// import { NoticeIcon } from 'ant-design-pro';
 import HeaderSearch from '../HeaderSearch';
 import HeaderDropdown from '../HeaderDropdown';
 import SelectLang from '../SelectLang';
@@ -66,10 +66,10 @@ export default class GlobalHeaderRight extends PureComponent {
   render() {
     const {
       currentUser,
-      fetchingNotices,
-      onNoticeVisibleChange,
+      // fetchingNotices,
+      // onNoticeVisibleChange,
       onMenuClick,
-      onNoticeClear,
+      // onNoticeClear,
       theme,
     } = this.props;
     const menu = (
@@ -93,8 +93,8 @@ export default class GlobalHeaderRight extends PureComponent {
         </Menu.Item>
       </Menu>
     );
-    const noticeData = this.getNoticeData();
-    const unreadMsg = this.getUnreadData(noticeData);
+    // const noticeData = this.getNoticeData();
+    // const unreadMsg = this.getUnreadData(noticeData);
     let className = styles.right;
     if (theme === 'dark') {
       className = `${styles.right}  ${styles.dark}`;
@@ -119,14 +119,14 @@ export default class GlobalHeaderRight extends PureComponent {
         <Tooltip title={formatMessage({ id: 'component.globalHeader.help' })}>
           <a
             target="_blank"
-            href="https://pro.ant.design/docs/getting-started"
+            href="#"
             rel="noopener noreferrer"
             className={styles.action}
           >
             <Icon type="question-circle-o" />
           </a>
         </Tooltip>
-        <NoticeIcon
+        {/* <NoticeIcon
           className={styles.action}
           count={currentUser.unreadCount}
           onItemClick={(item, tabProps) => {
@@ -166,7 +166,7 @@ export default class GlobalHeaderRight extends PureComponent {
             emptyText={formatMessage({ id: 'component.globalHeader.event.empty' })}
             emptyImage="https://gw.alipayobjects.com/zos/rmsportal/HsIsxMZiWKrNUavQUXqx.svg"
           />
-        </NoticeIcon>
+        </NoticeIcon> */}
         {currentUser.name ? (
           <HeaderDropdown overlay={menu}>
             <span className={`${styles.action} ${styles.account}`}>
@@ -181,7 +181,7 @@ export default class GlobalHeaderRight extends PureComponent {
           </HeaderDropdown>
         ) : (
           <Spin size="small" style={{ marginLeft: 8, marginRight: 8 }} />
-        )}
+          )}
         <SelectLang className={styles.action} />
       </div>
     );
