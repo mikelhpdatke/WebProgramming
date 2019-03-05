@@ -1,4 +1,5 @@
 import React from 'react';
+
 export const Content110DataSource = {
   OverPack: {
     className: 'home-page-wrapper content11-wrapper',
@@ -9,8 +10,7 @@ export const Content110DataSource = {
     children: [
       {
         name: 'image',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        children: 'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
         className: 'title-image',
       },
       {

@@ -23,7 +23,7 @@ class Content11 extends React.PureComponent {
               item.name.indexOf('title') === 0 ? 'h1' : 'div',
               { key: i.toString(), ...item },
               typeof item.children === 'string' &&
-              item.children.match(/\.(svg|gif|jpg|jpeg|png|JPG|PNG|GIF|JPEG)$/)
+                item.children.match(/\.(svg|gif|jpg|jpeg|png|JPG|PNG|GIF|JPEG)$/)
                 ? React.createElement('img', { src: item.children, alt: 'img' })
                 : item.children
             )
@@ -35,9 +35,7 @@ class Content11 extends React.PureComponent {
           {...dataSource.button}
           animation={{ y: 30, opacity: 0, type: 'from', delay: 300 }}
         >
-          <a {...dataSource.button.children.a}>
-            {dataSource.button.children.a.children}
-          </a>
+          <a {...dataSource.button.children.a}>{dataSource.button.children.a.children}</a>
         </TweenOne>
       </OverPack>
     );

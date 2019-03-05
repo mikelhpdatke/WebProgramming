@@ -9,7 +9,7 @@ import { Content110DataSource } from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
-enquireScreen((b) => {
+enquireScreen(b => {
   isMobile = b;
 });
 
@@ -26,7 +26,7 @@ export default class Home extends React.Component {
 
   componentDidMount() {
     // 适配手机屏幕;
-    enquireScreen((b) => {
+    enquireScreen(b => {
       this.setState({ isMobile: !!b });
     });
     // dva 2.0 样式在组件渲染之后动态加载，导致滚动组件不生效；线上不影响；
@@ -54,7 +54,7 @@ export default class Home extends React.Component {
     return (
       <div
         className="templates-wrapper"
-        ref={(d) => {
+        ref={d => {
           this.dom = d;
         }}
       >

@@ -177,6 +177,77 @@ export default {
             },
           ]
         },
+        {
+          path: '/chuong4',
+          name: 'Chương 4',
+          icon: 'plus-square',
+          routes: [
+            {
+              path: '/chuong4/20',
+              name: 'Điều 20',
+              component: './Chuong4/20',
+            },
+            {
+              path: '/chuong4/21',
+              name: 'Điều 21',
+              component: './Chuong4/21',
+            },
+            {
+              path: '/chuong4/22',
+              name: 'Điều 22',
+              component: './Chuong4/22',
+            },
+            {
+              path: '/chuong4/23',
+              name: 'Điều 23',
+              component: './Chuong4/23',
+            },
+            {
+              path: '/chuong4/24',
+              name: 'Điều 24',
+              component: './Chuong4/24',
+            },
+            {
+              path: '/chuong4/25',
+              name: 'Điều 25',
+              component: './Chuong4/25',
+            },
+            {
+              path: '/chuong4/26',
+              name: 'Điều 26',
+              component: './Chuong4/26',
+            },
+            {
+              path: '/chuong4/27',
+              name: 'Điều 27',
+              component: './Chuong4/27',
+            },
+          ]
+        },
+        {
+          path: '/chuong5',
+          name: 'Chương 5',
+          icon: 'plus-square',
+          routes: [
+            {
+              path: '/chuong5/33',
+              name: 'Điều 33',
+              component: './Chuong5/33',
+            },
+          ]
+        },
+        {
+          path: '/chuong6',
+          name: 'Chương 6',
+          icon: 'plus-square',
+          routes: [
+            {
+              path: '/chuong6/43',
+              name: 'Điều 43',
+              component: './Chuong6/43',
+            },
+          ]
+        },
         { path: '/', redirect: '/welcome' },
         // dashboard
         // {

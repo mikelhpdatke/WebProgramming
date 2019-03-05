@@ -9,13 +9,13 @@ export default () => (
     <p>
       <ul>
         <li>
-          1. Sĩ quan Công an nhân dân phục vụ theo chế độ chuyên nghiệp; hạ sĩ quan, chiến sĩ Công an
-          nhân dân phục vụ theo chế độ chuyên nghiệp hoặc chế độ nghĩa vụ; công nhân công an phục vụ
-      theo chế độ tuyển dụng.
+          1. Sĩ quan Công an nhân dân phục vụ theo chế độ chuyên nghiệp; hạ sĩ quan, chiến sĩ Công
+          an nhân dân phục vụ theo chế độ chuyên nghiệp hoặc chế độ nghĩa vụ; công nhân công an phục
+          vụ theo chế độ tuyển dụng.
         </li>
         <li>
-          2. Công dân thôi phục vụ trong Công an nhân dân phải thực hiện nghĩa vụ quân sự trong ngạch dự
-      bị theo quy định của pháp luật.
+          2. Công dân thôi phục vụ trong Công an nhân dân phải thực hiện nghĩa vụ quân sự trong
+          ngạch dự bị theo quy định của pháp luật.
         </li>
       </ul>
     </p>
