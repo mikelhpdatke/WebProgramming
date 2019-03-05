@@ -42,6 +42,10 @@ export default {
    */
   routes: [
     {
+      path: '/',
+      component: './Home',
+    },
+    {
       path: '/user',
       component: '../layouts/UserLayout',
       routes: [{ path: '/user', component: './Welcome' }],
@@ -59,7 +63,7 @@ export default {
         },
         {
           path: '/chuong1',
-          name: 'Chương 1: Quy định chung',
+          name: 'Chương 1',
           icon: 'plus-square',
           routes: [
             {
@@ -131,6 +135,45 @@ export default {
               path: '/chuong1/14',
               name: 'Điều 14',
               component: './Chuong1/14',
+            },
+          ]
+        },
+        {
+          path: '/chuong2',
+          name: 'Chương 2',
+          icon: 'plus-square',
+          routes: [
+            {
+              path: '/chuong2/15',
+              name: 'Điều 15',
+              component: './Chuong2/15',
+            },
+            {
+              path: '/chuong2/16',
+              name: 'Điều 16',
+              component: './Chuong2/16',
+            },
+          ]
+        },
+        {
+          path: '/chuong3',
+          name: 'Chương 3',
+          icon: 'plus-square',
+          routes: [
+            {
+              path: '/chuong3/17',
+              name: 'Điều 17',
+              component: './Chuong3/17',
+            },
+            {
+              path: '/chuong3/18',
+              name: 'Điều 18',
+              component: './Chuong3/18',
+            },
+            {
+              path: '/chuong3/19',
+              name: 'Điều 19',
+              component: './Chuong3/19',
             },
           ]
         },
