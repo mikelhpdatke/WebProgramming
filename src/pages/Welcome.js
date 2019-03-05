@@ -6,33 +6,33 @@ import styles from './globalStyle.less';
 
 const data = [
   {
-    title: 'CHƯƠNG I',
-    subTitle: 'QUY ĐỊNH CHUNG',
+    title: 'CHƯƠNG I: QUY ĐỊNH CHUNG',
+    subTitle: '',
     link: 'chuong1/1',
   },
   {
-    title: 'CHƯƠNG II',
-    subTitle: 'CHỨC NĂNG, NHIỆM VỤ VÀ QUYỀN HẠN CỦA CÔNG AN NHÂN DÂN',
+    title: 'CHƯƠNG II: CHỨC NĂNG, NHIỆM VỤ VÀ QUYỀN HẠN CỦA CÔNG AN NHÂN DÂN',
+    subTitle: '',
     link: 'chuong2/15',
   },
   {
-    title: 'CHƯƠNG III',
-    subTitle: 'TỔ CHỨC CỦA CÔNG AN NHÂN DÂN',
+    title: 'CHƯƠNG III: TỔ CHỨC CỦA CÔNG AN NHÂN DÂN',
+    subTitle: '',
     link: 'chuong3/17',
   },
   {
-    title: 'CHƯƠNG IV',
-    subTitle: 'SĨ QUAN, HẠ SĨ QUAN, CHIẾN SĨ CÔNG AN NHÂN DÂN',
+    title: 'CHƯƠNG IV: SĨ QUAN, HẠ SĨ QUAN, CHIẾN SĨ CÔNG AN NHÂN DÂN',
+    subTitle: '',
     link: 'chuong4/20',
   },
   {
-    title: 'CHƯƠNG V',
-    subTitle: 'BẢO ĐẢM ĐIỀU KIỆN HOẠT ĐỘNG VÀ CHẾ ĐỘ, CHÍNH SÁCH ĐỐI VỚI CÔNG AN NHÂN DÂN',
+    title: 'CHƯƠNG V: BẢO ĐẢM ĐIỀU KIỆN HOẠT ĐỘNG VÀ CHẾ ĐỘ, CHÍNH SÁCH ĐỐI VỚI CÔNG AN NHÂN DÂN',
+    subTitle: '',
     link: 'chuong5/33',
   },
   {
-    title: 'CHƯƠNG VI',
-    subTitle: 'KHEN THƯỞNG VÀ XỬ LÝ VI PHẠM',
+    title: 'CHƯƠNG VI: KHEN THƯỞNG VÀ XỬ LÝ VI PHẠM',
+    subTitle: '',
     link: 'chuong6/43',
   },
 ];
