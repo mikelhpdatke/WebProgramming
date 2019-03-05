@@ -42,7 +42,7 @@ export default {
    */
   routes: [
     {
-      path: '/',
+      path: '/home',
       component: './Home',
     },
     {
@@ -248,7 +248,7 @@ export default {
             },
           ]
         },
-        { path: '/', redirect: '/welcome' },
+        { path: '/', redirect: '/home' },
         // dashboard
         // {
         //   path: 'https://github.com/umijs/umi-blocks/tree/master/ant-design-pro',
